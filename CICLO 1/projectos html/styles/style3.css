@@ -1,0 +1,17 @@
+#game-container {
+    position: relative;
+  }
+  
+  #bricks-container {
+    position: absolute;
+    top: 50px;
+    left: 0;
+    right: 0;
+  }
+  
+  .brick {
+    width: 32px;
+    height: 16px;
+    margin-bottom: 4px;
+  }
+  

@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projecto 1</title>
+    <link rel="stylesheet" href="styles/style1.css">
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.16/dist/tailwind.min.css" rel="stylesheet">
+    <style></style>
+</head>
+<body>
+    <div class="calculator bg-gray-200 p-6 rounded-md shadow-md">
+        <h2 class="text-2xl font-bold mb-4">Calculadora de Ingresos</h2>
+        <input type="number" id="hourlyRate" placeholder="Tarifa por hora" class="mb-2">
+        <input type="number" id="hoursWorked" placeholder="Horas trabajadas" class="mb-4">
+        <button onclick="calculateIncome()" class="bg-blue-500 text-white">Calcular</button>
+        <div id="incomeResult" class="text-xl mt-4"></div>
+    </div>
+    <div class="flex justify-center items-center h-screen">
+        <h1 class="text-4xl text-center">
+            <a href="../index.html">DAME CLICK PARA VOLVER AL MENU</a>
+        </h1>
+    </div>
+    <script src="javascript/js1.js"></script>
+</body>
+</html>

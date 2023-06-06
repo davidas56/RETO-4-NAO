@@ -1,0 +1,14 @@
+.calculator {
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+.calculator input {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+}
+
+.calculator button {
+    padding: 8px 16px;
+}
