@@ -1,23 +1,35 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
-    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.16/dist/tailwind.min.css" rel="stylesheet">
-    <link href="styles/style2.css" rel="stylesheet">
-
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Scroll Infinito</title>
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.16/dist/tailwind.min.css" rel="stylesheet">
+  <link href="styles.css" rel="stylesheet">
 </head>
 
 <body>
-    <div class="scroll-container">
-        <div id="scroll-content">
-            <!-- Contenido inicial -->
-            <div class="scroll-item">Item 1</div>
-            <div class="scroll-item">Item 2</div>
-            <div class="scroll-item">Item 3</div>
-            <a href="../index.html">DAME CLICK PARA VOLVER AL MENU</a>
-        </div>
+  <div id="content" class="min-h-screen py-4">
+    <h1 class="text-4xl font-bold mb-4">Scroll Infinito</h1>
+    <div id="scroll-container">
+      <!-- Contenido inicial -->
+      <div class="bg-gray-200 p-4 mb-4">
+        <p>Contenido 1</p>
+      </div>
+      <div class="bg-gray-200 p-4 mb-4">
+        <p>Contenido 2</p>
+      </div>
+      <div class="bg-gray-200 p-4 mb-4">
+        <p>Contenido 3</p>
+      </div>
     </div>
-    <script src="javascript/js2.js"></script>
+    <div id="loading" class="text-center">
+      <p class="text-gray-500">Cargando...</p>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
 </body>
 
 </html>
